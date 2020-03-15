@@ -1,0 +1,20 @@
+.body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.card-deck {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin: 20px 0;
+}
+
+.display-4 {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin: 20px 0;
+}
