@@ -1,0 +1,48 @@
+        body {
+            font-family:"Jua", sans-serif
+        }
+        .header {
+            border-radius: 10px;
+            width: 600px;
+            height: 300px;
+            background-repeat: no-repeat background-position: center;
+            background-image: url("http://www.forest.go.kr/newkfsweb/cmm/fms/FileDown.do?atchFileId=FILE_000000010008639&fileSn=0;")
+        }
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+         /* justify-content: flex-start; */
+         /* justify-content: flex-end; */
+         /* justify-content: space-between; */
+        align-items:center;
+         /* align-items: flex-start; */
+         /* align-items: flex-end; */
+        .header h1,
+        .header p {
+            color: rgba(255, 255, 255, 0.9);
+            < !--rgb색상표 검색/컬러값을 16진수로 표현/또는 color: white;
+            로도 가능-->
+            text-align: center;
+        }
+
+        .contents {
+            margin-top: 20px
+        }
+
+        .input {
+            margin-bottom: 10px
+        }
+
+        #button {
+            width: 180px;
+            height: 40px;
+            background: #FCFCFC;
+            COLOR: #000000;
+            font-size: 16px;
+            border: 1px;
+            solid #DDDDDD;
+            border-radius: 4px;
+            cursor: pointer;
+            box-shadow: 0px 1px 3px rgba(0,0,0,0.2);
+
+        }
